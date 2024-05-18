@@ -2046,9 +2046,11 @@ local farmtab = window:AddTab("Farm") -- Name of tab
 farmtab:Show() -- shows the tab
 
 farmtab:AddButton("Start Farming",function()
-	print("eof == any close lol 1122 zszzs mdzq pee poop") --FUCK YOU LAZY qqwizzixxxx PUT A LOADSTRING HERE YOU STUPID NIGGA
+	print("DEBUG 1") --FUCK YOU LAZY qqwizzixxxx PUT A LOADSTRING HERE YOU STUPID NIGGA
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SkidoLOL/Baft-Script/main/Baft%20Farm/Instances%20for%20script/Farm.lua"))()
 end)
 
 farmtab:AddButton("Anti-Afk",function()
-	print("eof == any close lol 1122 zszzs mdzq mq") --FUCK YOU LAZY qqwizzixxxx PUT A LOADSTRING HERE YOU STUPID NIGGA
+	print("DEBUG 2") --FUCK YOU LAZY qqwizzixxxx PUT A LOADSTRING HERE YOU STUPID NIGGA
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SkidoLOL/Baft-Script/main/Baft%20Farm/Instances%20for%20script/AntiKick.lua"))()
 end)
