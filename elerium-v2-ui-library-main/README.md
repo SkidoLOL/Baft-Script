@@ -1,6 +1,5 @@
 # Elerium v2 Example, Supports PC and Mobile!
 
-Please Copy and paste Library code into ur executor or text editor, Do not use Library code as loadstring as it may not work.
 
 Create Window Here:
 ```lua
@@ -85,6 +84,3 @@ folder:AddLabel("Woo! I'm inside a folder!")
 local folder2 = folder:AddFolder()
 folder2:AddLabel("I'm inside *two* folders :smirk:")
 ```
-
-Credit to Singularity#5490 for creating the lib
-Soon adding more features to readme by myself.
