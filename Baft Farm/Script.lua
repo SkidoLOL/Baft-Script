@@ -2054,3 +2054,22 @@ farmtab:AddButton("Anti-Afk",function()
 	print("DEBUG 2") --FUCK YOU LAZY qqwizzixxxx PUT A LOADSTRING HERE YOU STUPID NIGGA
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/SkidoLOL/Baft-Script/main/Baft%20Farm/Instances%20for%20script/AntiKick.lua"))()
 end)
+
+--//Others\\--
+
+local UniversalTab = window:AddTab("Universal") -- Name of tab
+
+UniversalTab:AddButton("Universal",function()
+	print("DEBUG 3") --FUCK YOU LAZY qqwizzixxxx PUT A LOADSTRING HERE YOU STUPID NIGGA
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+UniversalTab:AddButton("Cmd-X",function()
+	print("DEBUG 4") --FUCK YOU LAZY qqwizzixxxx PUT A LOADSTRING HERE YOU STUPID NIGGA
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()
+end)
+
+UniversalTab:AddButton("Inf Jump",function()
+	print("DEBUG 5") --FUCK YOU LAZY qqwizzixxxx PUT A LOADSTRING HERE YOU STUPID NIGGA
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SkidoLOL/ArsenalScript/main/Arsenal%20Script/Scripts%20For%20MainHub/Inf%20Jump.lua"))()
+end)
